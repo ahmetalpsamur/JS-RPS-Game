@@ -1,19 +1,20 @@
 body{
-    background-color: black;
+    background-color: rgb(84, 79, 79);
 }
 img{
     object-fit: contain;
-    width: 10%;
-    height: 10%;
+    background-color: transparent;
+    height: 90%;
+    width: 90%;
+    
     
 }
 .d-title{
     text-align: center;
 
 }
-.d-title{
+.d-image{
     text-align: center;
-    align-items: center;
 }
 
 .p-title{
@@ -21,4 +22,34 @@ img{
     font-family: Arial;
     color: white;
     font-weight: bold;
+}
+
+.b-rock{
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.b-paper{
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.b-scissors{
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-radius: 80px;
+    cursor: pointer;
 }
