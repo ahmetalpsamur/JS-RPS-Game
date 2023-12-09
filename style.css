@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+img{
+    object-fit: contain;
+    width: 10%;
+    height: 10%;
+    
+}
+.d-title{
+    text-align: center;
+
+}
+.d-title{
+    text-align: center;
+    align-items: center;
+}
+
+.p-title{
+    font-size: 36px;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+}
