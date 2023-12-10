@@ -58,6 +58,10 @@ img{
     border-radius: 80px;
     cursor: pointer;
 }
+.b-rock:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+}
 
 .b-paper{
     height: 150px;
@@ -68,7 +72,10 @@ img{
     border-radius: 80px;
     cursor: pointer;
 }
-
+.b-paper:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+}
 .b-scissors{
     height: 150px;
     width: 150px;
@@ -78,7 +85,10 @@ img{
     border-radius: 80px;
     cursor: pointer;
 }
-
+.b-scissors:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+}
 .b-reset{
     border: solid;
     border-color: transparent;
