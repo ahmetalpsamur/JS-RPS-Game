@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(84, 79, 79);
+    background-color: rgb(26, 26, 26);
 }
 img{
     object-fit: contain;
     background-color: transparent;
-    height: 90%;
-    width: 90%;
+    height: 75%;
+    width: 75%;
     
     
 }
@@ -23,7 +23,32 @@ img{
     color: white;
     font-weight: bold;
 }
-
+.p-stat{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+}
+.p-result{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: Arial;
+    font-weight: 600;
+}
+.p-select{
+    text-align: center;
+    color: white;
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: Arial;
+}
+.img-select{
+    object-fit: contain;
+    background-color: transparent;
+    height: 5%;
+    width: 5%;
+}
 .b-rock{
     height: 150px;
     width: 150px;
@@ -52,4 +77,19 @@ img{
     border-color: white;
     border-radius: 80px;
     cursor: pointer;
+}
+
+.b-reset{
+    border: solid;
+    border-color: transparent;
+    background-color: white;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 16px;
+}
+.b-reset:hover{
+    background-color: rgba(255,255,255,0.8)
 }
